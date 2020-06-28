@@ -26,7 +26,9 @@ namespace API.Controllers
         [HttpGet("servererror")]
         public ActionResult GetBadRequest()
         {
-            return BadRequest();
+            var thing = _context.Products.Find(42);
+            var thingToReturn = thing.ToString();
+            return Ok();
         }
 
         [HttpGet("badrequest")]
