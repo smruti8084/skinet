@@ -1,0 +1,5 @@
+{
+    "editor.fontSize": 13,
+    "csharpextensions.useThisForCtorAssignments": false,
+    "csharpextensions.privateMemberPrefix": "_"
+}
